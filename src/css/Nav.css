@@ -1,0 +1,149 @@
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 35px;
+  padding-right: 20px;
+}
+
+.top-nav-img {
+  height: 15px;
+}
+
+.top-nav-options {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.8;
+  padding: 0.5em 0 0.3em;
+  transition: opacity 0.2s ease-out;
+  color: #006fcf;
+  gap: 5px;
+}
+
+.top-nav-options:hover {
+  opacity: 0.6;
+}
+
+/* middle nav bar css */
+
+.nav-mid-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin-right: 20px;
+}
+
+.nav-mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.nav--mid-logo {
+  display: block;
+  height: 63px;
+  width: 141px;
+}
+
+.nav-mid-options {
+  position: relative;
+  color: #00157a;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.nav-mid-dropdown {
+  display: none;
+  width: 300px;
+  position: absolute;
+  list-style: none;
+  background-color: #006fcf;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-mid-options:hover .nav-mid-dropdown {
+  display: block;
+}
+
+.nav-mid-options:hover {
+  color: #006fcf;
+}
+
+.nav-mid-dropdown-list:hover {
+  background-color: blue;
+}
+
+.nav-mid-dropdown-list {
+  padding: 10px;
+  border-bottom: 2px solid rgb(100, 151, 211);
+}
+
+/* arrow navbar */
+
+.square:before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #006fcf transparent;
+}
+.square:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 0 17px 17px 17px;
+}
+.square {
+  position: absolute;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.nav-mid-option-arrow {
+  position: absolute;
+  top: 2px;
+  margin-left: 4px;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.bottom-nav {
+  background-color: #00157a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.bottom-nav-span {
+  margin-left: 20px;
+  color: #83c0f5;
+  cursor: pointer;
+}
+
+.bottom--arrow {
+  margin-left: 5px;
+  font-size: 20px;
+  color: #006fcf;
+}
+
+.bottom-nav-span:hover {
+  border-bottom: 1px solid #006fcf;
+}
+
+.bottom-nav-span:hover + .bottom--arrow {
+  transform: translateX(5px);
+  transition: 0.5s;
+}
