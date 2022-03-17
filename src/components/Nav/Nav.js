@@ -5,11 +5,11 @@ import BottomNav from "./BottomNav";
 
 function Nav() {
   return (
-    <div>
+    <>
       <TopNav />
       <MidNav />
       <BottomNav />
-    </div>
+    </>
   );
 }
 

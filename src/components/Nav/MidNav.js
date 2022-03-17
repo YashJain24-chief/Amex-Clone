@@ -1,7 +1,7 @@
 import React from "react";
 import Dropdown from "./Dropdown";
 
-function MidNav(props) {
+function MidNav() {
   return (
     <div className="nav-mid">
       <img
