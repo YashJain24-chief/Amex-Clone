@@ -1,6 +1,6 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
-import unitedStates from "../images/united-states.svg";
+import unitedStates from "../../images/united-states.svg";
 
 function TopNav() {
   return (

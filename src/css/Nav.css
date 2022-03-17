@@ -97,12 +97,9 @@
 .square:after {
   content: "";
   position: absolute;
-  border-style: solid;
-  border-width: 0 17px 17px 17px;
 }
 .square {
   position: absolute;
-  margin: 0;
   margin-top: 10px;
 }
 
@@ -113,9 +110,10 @@
 }
 
 .btn {
-  width: 120px;
-  height: 40px;
+  width: 120px !important;
+  height: 40px !important;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .bottom-nav {
