@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.travel-container {
+  background-color: #f7f8fe;
+  width: 100%;
+}
+
+.travel--program-container {
+  width: 71.25rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6rem 0;
+}
+.travel--program-blue-ski {
+  color: #006fcf;
+  font-size: 16px;
+  font-weight: 700;
+}
+.travel--program-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.travel--program-main-title {
+  font-size: 3.375rem;
+  line-height: 3.6rem;
+  width: 30%;
+  color: #00175a;
+  padding: 0px;
+  text-align: start;
+}
+.travel--program-main-description {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  color: #00175a;
+  border-left: 1px solid #ccd1de;
+  padding-left: 4rem;
+  width: 60%;
+  padding-right: 0.9375rem;
+  text-align: start;
+  padding-right: 10rem;
+}
+
+.travel--program-card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px 10px;
+  margin-top: 2rem;
+}
+.travel--program-card {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+}
+.travel-img {
+  height: 30px;
+}
+.travel--program-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.travel--program-card-title {
+  color: #00175a;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: 3px;
+}
+.travel--program-card-description {
+  color: #00175a;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.travel--program-card-more {
+  display: block;
+  width: 60%;
+  text-align: end;
+  padding: 4px;
+  color: #006fcf;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+.travel--program-card-more:hover > .travel--arrow {
+  transform: translateX(5px);
+  transition: 0.5s;
+}
