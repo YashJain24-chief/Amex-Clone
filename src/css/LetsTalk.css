@@ -1,0 +1,36 @@
+.lets-talk-container {
+  background: url(https://www.amexglobalbusinesstravel.com/content/themes/amexgbt/images/2020/Amex-flourish-dark-1b.svg)
+    no-repeat bottom left;
+  background-color: #006fcf;
+  color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6rem 0;
+}
+
+.lets-talk-para1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.lets-talk-para2 {
+  font-size: 1.2rem;
+  width: 557px;
+  text-align: center;
+}
+
+.lets-talk-button {
+  background-color: white;
+  color: #00157a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px !important;
+  font-size: large;
+  height: 100px !important;
+}
+.lets-talk-button:hover {
+  background-color: #00157a;
+}

@@ -1,0 +1,46 @@
+.slider-height {
+  position: absolute;
+  top: 75%;
+  left: 12.5%;
+  width: 71rem;
+  height: 300px;
+  background-color: #006fcf;
+  color: white;
+  font-size: 1.4rem;
+  /* margin: auto; */
+  border-radius: 10px;
+}
+
+.para-padding {
+  padding: 3rem 0;
+  font-weight: 600;
+}
+
+.slide-1 {
+  width: 80% !important;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bottom--arrow-slider {
+  position: absolute;
+  bottom: 16px;
+  color: white;
+  background-color: #00157a;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.bottom--arrow-slider1 {
+  position: absolute;
+  left: 950px;
+  bottom: 16px;
+  color: white;
+  background-color: #00157a;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
