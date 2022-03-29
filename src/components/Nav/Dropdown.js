@@ -2,15 +2,22 @@ import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
 function Dropdown(props) {
-  let listElements = props.listElements.map((element) => (
-    <li className="nav-mid-dropdown-list">{element}</li>
+  let listElements = props.listElements.map((element, index) => (
+    <li className="nav-mid-dropdown-list" key={index}>
+      {element}
+    </li>
   ));
 
   return (
-    <div className="nav-mid-options">
+    <div data-testid={props.dataTestid} className="nav-mid-options">
       {props.title}
       <IoIosArrowDown className="nav-mid-option-arrow" />
-      <div className="nav-mid-dropdown square">{listElements}</div>
+      <div
+        data-testid="sqaure-class-testing"
+        className="nav-mid-dropdown square"
+      >
+        {listElements}
+      </div>
     </div>
   );
 }

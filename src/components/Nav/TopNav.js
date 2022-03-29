@@ -7,7 +7,7 @@ function TopNav() {
     <>
       <div className="top-nav">
         <div className="top-nav-options">CAREERS</div>
-        <div className="top-nav-options">
+        <div data-testid="change-region-text" className="top-nav-options">
           CHANGE REGION
           <img className="top-nav-img" src={unitedStates} alt="" />
         </div>

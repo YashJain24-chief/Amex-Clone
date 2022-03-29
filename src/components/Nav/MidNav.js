@@ -12,6 +12,7 @@ function MidNav() {
       {/* mid options */}
       <div className="nav-mid-parent">
         <Dropdown
+          dataTestid="dropdown"
           title="TRAVEL MANAGEMENT"
           listElements={[
             "BUSINESS TRAVEL SOLUTIONS",
@@ -20,6 +21,7 @@ function MidNav() {
           ]}
         />
         <Dropdown
+          dataTestid="dropdown"
           title="MEETINGS & EVENTS"
           listElements={[
             "BUSINESS TRAVEL SOLUTIONS",
